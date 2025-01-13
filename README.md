@@ -69,3 +69,25 @@ repository/
 ## 📖 참고 자료
 - [Google Python Style Guide (원문)](https://google.github.io/styleguide/pyguide.html)
 - [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+---
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://github.com/GideokKim"><img src="https://avatars.githubusercontent.com/u/79832255?v=4" width="100px;" alt="GideokKim"/><br /><sub><b>GideokKim</b></sub></a><br /><a href="#maintenance-GideokKim" title="Maintenance">🚧</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+<br/>
