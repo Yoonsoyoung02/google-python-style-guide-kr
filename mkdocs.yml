@@ -83,3 +83,6 @@ extra:
 docs_dir: google python style guide
 nav:
   - 배경: background.md
+  - Python Language Rules:
+    - Lint: lint.md
+    - Imports: imports.md
