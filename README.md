@@ -16,49 +16,33 @@ Google Python Style Guide는 Python 코드 작성 시 권장되는 스타일과 
 ## 📂 디렉토리 구조
 ```
 repository/
-├── LICENSE      # 라이선스 파일
-├── NOTICE       # 원작 정보 고지
-├── README.md    # 프로젝트 소개
-├── src/         # 번역 중인 원문 및 번역본 파일
-└── docs/        # 추가 문서 (기여 가이드, 참고 자료 등)
+├── LICENSE                     # 라이선스 파일
+├── NOTICE                      # 원작 정보 고지
+├── README.md                   # 프로젝트 소개
+├── CONTRIBUTING.md             # 기여 가이드라인
+├── google python style guide   # 번역 중인 원문 및 번역본 파일
 ```
 
 ---
 
 ## 🚀 진행 상황
-- [x] 저장소 생성
-- [x] 기본 설정 진행
-- [ ] GitHub Pages 설정
-- [ ] 소개 섹션
-- [ ] 코드 스타일 개요
-- [ ] 네이밍 규칙
-- [ ] 주석 가이드
-- [ ] 기타 섹션 번역
+
+| 작업 내용 | 상태 | 완료 날짜 |
+|-----------|------|-----------|
+| 저장소 생성 | ✅ | 2025-01-14 |
+| 기본 설정 진행 | ✅ | 2025-01-14 |
+| GitHub Pages 설정 | ✅ | 2025-01-14 |
+| 기여 가이드라인 작성 | ✅ | 2025-01-30 |
+| 1 Background | ✅ | 2025-01-14 |
+| 2 Python Language Rules | 🔨 | 진행중 |
+| 3 Python Style Rules | ❌ | - |
+| 4 Parting Words | ❌ | - |
+| Google-Specific Magic | ❌ | - |
 
 > **Note:** 번역 상태는 계속 업데이트될 예정입니다.
 
-## 🔥 참여 방법
-1. 이 저장소를 포크(Fork)합니다.
-2. 로컬 환경에 클론(Clone)합니다.
-   ```bash
-   git clone https://github.com/GideokKim/google-python-style-guide-kr.git
-   ```
-3. 새로운 브랜치를 생성하여 작업합니다.
-   ```bash
-   git checkout -b feature/translation-section-name
-   ```
-4. 작업 완료 후 커밋하고 푸시합니다.
-   ```bash
-   git add .
-   git commit -m "docs: Add translation for section-name"
-   git push origin feature/translation-section-name
-   ```
-5. Pull Request를 생성합니다.
-
-## ✍️ 기여 가이드라인
-- 번역 시 원문과의 일관성을 유지해주세요.
-- 기술 용어는 가능한 한 표준 번역을 사용하거나, 필요 시 주석을 통해 설명을 추가해주세요.
-- Pull Request를 보내기 전에 문법과 철자를 다시 한 번 확인해주세요.
+## 🔥 기여 방법
+[CONTRIBUTING.md](CONTRIBUTING.md) 참고
 
 ## 📄 라이선스
 이 프로젝트는 [Apache License 2.0](LICENSE)을 따릅니다. 원문 스타일 가이드의 저작권은 Google에 있습니다.
