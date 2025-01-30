@@ -47,7 +47,38 @@ Google Python Style Guide 한글 번역 프로젝트에 관심을 가져주셔�
 - 각 섹션별로 별도의 마크다운 파일을 생성합니다.
 - 파일명은 영문 원문의 섹션명을 따릅니다.
 
-### 5. 💬 커밋 메시지 작성
+### 5. 🖥️ 로컬 미리보기 설정 (MkDocs)
+- 내가 작업한 내역을 확인하기 위해 로컬에서 GitHub Pages 미리보기를 확인하는 방법입니다.
+
+```bash
+# 1. Python 3 버전 확인
+python3 --version
+
+# 1 - 1. Python 3가 설치되어 있지 않다면 설치 (macOS 기준)
+brew install python
+
+# 2. 가상 환경 생성
+python3 -m venv venv
+
+# 3. 활성화
+source venv/bin/activate  # zsh/bash 사용자
+
+# 4. 의존성 설치
+pip install -r requirements.txt
+
+# 5. 서버 실행
+mkdocs serve
+
+# 6. 브라우저에서 확인
+http://localhost:8000/google-python-style-guide-kr/
+
+# 7. 서버 종료는 Ctrl+C
+
+# 8. 가상 환경 비활성화
+deactivate
+```
+
+### 6. 💬 커밋 메시지 작성
 커밋 메시지는 다음 형식을 따릅니다:
 
 ```
@@ -57,7 +88,7 @@ docs: [섹션명] 번역 추가
 - 특이사항이 있다면 추가 설명
 ```
 
-### 6. 📤 Pull Request 제출
+### 7. 📤 Pull Request 제출
 1. 작업한 브랜치를 푸시합니다:
    ```bash
    git push origin feature/translation-[섹션명]
@@ -68,7 +99,7 @@ docs: [섹션명] 번역 추가
    - 관련된 이슈 번호
    - 특별히 리뷰어가 확인해주었으면 하는 부분
 
-### 7. 👀 리뷰 과정
+### 8. 👀 리뷰 과정
 - 다른 기여자들의 리뷰를 기다립니다.
 - 리뷰어의 피드백에 따라 수정이 필요한 경우, 해당 내용을 반영합니다.
 - 모든 리뷰가 완료되면 메인 브랜치에 머지됩니다.
