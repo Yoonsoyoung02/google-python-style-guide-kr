@@ -48,7 +48,7 @@ repository/
 이 프로젝트는 [Apache License 2.0](LICENSE)을 따릅니다. 원문 스타일 가이드의 저작권은 Google에 있습니다.
 
 ## ❓ 문의
-프로젝트와 관련된 질문은 [Issues](https://github.com/your-repo/issues)를 통해 남겨주세요.
+프로젝트와 관련된 질문은 [Issues](https://github.com/GideokKim/google-python-style-guide-kr/issues)를 통해 남겨주세요.
 
 ## 📖 참고 자료
 - [Google Python Style Guide (원문)](https://google.github.io/styleguide/pyguide.html)
