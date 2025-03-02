@@ -20,7 +20,7 @@
 Yes(권장):
 
 ```python
-#### 코드에서 `absl.flags`를 전체 이름(자세한 방식)으로 참조합니다.
+# 코드에서 absl.flags를 전체 이름(자세한 방식)으로 참조합니다.
 
 import absl.flags
 from doctor.who import jodie
@@ -30,9 +30,9 @@ from doctor.who import jodie
 
 Yes(권장):
 
-#### 일반적으로 코드에서 플래그를 참조할 때 모듈 이름만 사용합니다.
-
 ```python
+# 일반적으로 코드에서 플래그를 참조할 때 모듈 이름만 사용합니다.
+
 from absl import flags
 from doctor.who import jodie
 ```
@@ -43,9 +43,9 @@ from doctor.who import jodie
 No(주의):
 
 ```python
-#### 작성자가 어떤 모듈을 의도했는지, 그리고 실제로 어떤 모듈이 호출될 것인지 불분명합니다.
-#### 실제 호출 방식은 `sys.path`를 제어하는 외부 요소에 따라 달라집니다.
-#### 작성자가 의도한 `jodie`모듈은 무엇인지 알기 어렵습니다.
+# 작성자가 어떤 모듈을 의도했는지, 그리고 실제로 어떤 모듈이 호출될 것인지 불분명합니다.
+# 실제 호출 방식은 sys.path를 제어하는 외부 요소에 따라 달라집니다.
+# 작성자가 의도한 jodie모듈은 무엇인지 알기 어렵습니다.
 
 import jodie
 ```
