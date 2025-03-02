@@ -51,7 +51,7 @@ repository/
 - 🍒 **체리피커**: ?
 - 📚 **백과사전**: ?
 - 🧐 **디테일 장인**: ?
-- 🚀 **스피드러너**: ?
+- 🚀 **스피드러너**: PR을 가장 빠르게 승인받은 사람
 - 🤲 **도움의 손길**: ?
 - 🎨 **스타일리스트**: ?
 - 🌱 **새싹 멘토**: ?
@@ -78,6 +78,7 @@ repository/
   <tbody>
     <tr>
       <td align="center"><a href="https://github.com/GideokKim"><img src="https://avatars.githubusercontent.com/u/79832255?v=4" width="100px;" alt="GideokKim"/><br /><sub><b>GideokKim</b></sub></a><br /><a href="#maintenance-GideokKim" title="Maintenance">🚧</a></td>
+      <td align="center"><a href="https://github.com/YiHeeJu"><img src="https://avatars.githubusercontent.com/u/177398433?v=4" width="100px;" alt="Yi HeeJu"/><br /><sub><b>Yi HeeJu</b></sub></a><br /><a href="#speed-runner" title="Speed Runner">🚀</a></td>
     </tr>
   </tbody>
 </table>
