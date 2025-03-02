@@ -1,61 +1,51 @@
-2.3 Packages
-2.3 패키지
+# 2.3 패키지
 
-Import each module using the full pathname location of the module.
 각 모듈은 완전한 경로를 통해 호출합니다.
 
-2.3.1 Pros
-찬성 의견
+### 2.3.1 장점
 
-Avoids conflicts in module names or incorrect imports due to the module search path not being what the author expected. Makes it easier to find modules.
 모듈 검색 경로가 작성자가 예상한 것과 다를 경우 발생할 수 있는 모듈 이름의 충돌이나 잘못된 호출을 방지합니다.
-또한, 모듈을 더 쉽게 찾을 수 있도록 합니다.
+또한, 모듈을 더 쉽게 찾을 수 mk있도록 합니다.
 
-2.3.2 Cons
-반대 의견
+### 2.3.2 단점
 
-Makes it harder to deploy code because you have to replicate the package hierarchy. Not really a problem with modern deployment mechanisms.
 패키지 계층 구조를 유지해야 하므로 코드 배포가 복잡해질 수 있습니다.
 그러나 최근 배포 시스템에서 패키지 구조의 유지가 일반적이므로 큰 문제가 되지 않습니다.
 
-2.3.3 Decision
-결정
+### 2.3.3 결정
 
-All new code should import each module by its full package name.
 모든 새로운 코드는 전체 패키지 경로를 통해 각 모듈을 호출해야합니다.
 
-Imports should be as follows:
 모듈의 호출 방식은 다음과 같습니다.
 
-Yes:
+Yes(권장):
 
-# Reference absl.flags in code with the complete name (verbose).
+#### 코드에서 absl.flags를 전체 이름(자세한 방식)으로 참조합니다.
 
 import absl.flags
 from doctor.who import jodie
 
 \_FOO = absl.flags.DEFINE_string(...)
-Yes:
 
-# Reference flags in code with just the module name (common).
+Yes(권장):
+
+#### 일반적으로 코드에서 플래그를 참조할 때 모듈 이름만 사용합니다.
 
 from absl import flags
 from doctor.who import jodie
 
 \_FOO = flags.DEFINE_string(...)
-(assume this file lives in doctor/who/ where jodie.py also exists)
+(이 파일은 doctor/who/ 디렉터리에 있으며, jodie.py 파일도 같은 위치에 있다고 가정합니다.)
 
-No:
+No(주의):
 
-# Unclear what module the author wanted and what will be imported. The actual
+#### 작성자가 어떤 모듈을 의도했는지, 그리고 실제로 어떤 모듈이 호출될 것인지 불분명합니다.
 
-# import behavior depends on external factors controlling sys.path.
+#### 실제 호출 방식은 sys.path를 제어하는 외부 요소에 따라 달라집니다.
 
-# Which possible jodie module did the author intend to import?
+#### 작성자가 의도한 jodie 모듈은 무엇인지 알기 어렵습니다.
 
 import jodie
-
-The directory the main binary is located in should not be assumed to be in sys.path despite that happening in some environments. This being the case, code should assume that import jodie refers to a third-party or top-level package named jodie, not a local jodie.py.
 
 메인 바이너리가 위치한 디렉터리가 sys.path에 포함된다고 가정해서는 안 됩니다.
 일부 환경에서는 그렇게 동작할 수 있지만, 항상 보장되는 것은 아닙니다.
