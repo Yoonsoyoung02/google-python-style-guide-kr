@@ -21,7 +21,7 @@ repository/
 ├── README.md                   # 프로젝트 소개
 ├── CONTRIBUTING.md             # 기여 가이드라인
 ├── mkdocs.yml                  # 배포되는 웹 문서의 사이트 설정
-├── google python style guide   # 번역 중인 원문 및 번역본 파일
+├── google python style guide/  # 번역 중인 원문 및 번역본 파일
 ```
 
 ---
