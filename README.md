@@ -40,7 +40,8 @@ repository/
 | 4 Parting Words | ❌ | - |
 | Google-Specific Magic | ❌ | - |
 
-> **Note:** 번역 상태는 계속 업데이트될 예정입니다.
+> [!NOTE] 
+> 번역 상태는 계속 업데이트될 예정입니다.
 
 ## 🔥 기여 방법
 [CONTRIBUTING.md](CONTRIBUTING.md) 참고
