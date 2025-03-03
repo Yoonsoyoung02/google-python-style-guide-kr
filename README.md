@@ -49,7 +49,7 @@ repository/
 ### 히든 미션 🏆
 이 저장소에 기여하는 동안 재미있는 히든 미션을 달성하면 특별한 타이틀을 받을 수 있습니다! 🎖️
 
-- ✨ **이슈 메이커**: ?
+- ✨ **이슈 메이커**: 가장 처음 관리자 외에 Issue를 생성한 사람
 - 🍒 **체리피커**: ?
 - 📚 **백과사전**: ?
 - 🧐 **디테일 장인**: ?
@@ -80,6 +80,7 @@ repository/
   <tbody>
     <tr>
       <td align="center"><a href="https://github.com/GideokKim"><img src="https://avatars.githubusercontent.com/u/79832255?v=4" width="100px;" alt="GideokKim"/><br /><sub><b>GideokKim</b></sub></a><br /><a href="#maintenance-GideokKim" title="Maintenance">🚧</a></td>
+      <td align="center"><a href="https://github.com/Yoonsoyoung02"><img src="https://avatars.githubusercontent.com/u/192282690?v=4" width="100px;" alt="Yoonsoyoung02"/><br /><sub><b>Yoonsoyoung02</b></sub></a><br /><a href="#issue-maker" title="Issue Maker">✨</a></td>
       <td align="center"><a href="https://github.com/YiHeeJu"><img src="https://avatars.githubusercontent.com/u/177398433?v=4" width="100px;" alt="Yi HeeJu"/><br /><sub><b>Yi HeeJu</b></sub></a><br /><a href="#speed-runner" title="Speed Runner">🚀</a></td>
       <td align="center"><a href="https://github.com/zer0ken"><img src="https://avatars.githubusercontent.com/u/31297454?v=4" width="100px;" alt="zer0ken"/><br /><sub><b>zer0ken</b></sub></a><br /><a href="#speed-runner" title="Contributor">🤝</a></td>
     </tr>
