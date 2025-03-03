@@ -20,7 +20,8 @@ repository/
 ├── NOTICE                      # 원작 정보 고지
 ├── README.md                   # 프로젝트 소개
 ├── CONTRIBUTING.md             # 기여 가이드라인
-├── google python style guide   # 번역 중인 원문 및 번역본 파일
+├── mkdocs.yml                  # 배포되는 웹 문서의 사이트 설정
+├── google python style guide/  # 번역 중인 원문 및 번역본 파일
 ```
 
 ---
@@ -39,7 +40,8 @@ repository/
 | 4 Parting Words | ❌ | - |
 | Google-Specific Magic | ❌ | - |
 
-> **Note:** 번역 상태는 계속 업데이트될 예정입니다.
+> [!NOTE] 
+> 번역 상태는 계속 업데이트될 예정입니다.
 
 ## 🔥 기여 방법
 [CONTRIBUTING.md](CONTRIBUTING.md) 참고
