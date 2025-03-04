@@ -86,3 +86,5 @@ nav:
   - Python Language Rules:
     - Lint: lint.md
     - Imports: imports.md
+    - Packages: packages.md
+    - Mutable Global State: mutable-global-state.md
