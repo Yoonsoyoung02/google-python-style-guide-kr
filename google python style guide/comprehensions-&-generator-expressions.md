@@ -15,7 +15,7 @@
 
 
 ```python
-Yes:
+#YES(권장):
   result = [mapping_expr for value in iterable if filter_expr]
 
   result = [
