@@ -87,4 +87,5 @@ nav:
     - Lint: lint.md
     - Imports: imports.md
     - Packages: packages.md
+    - Mutable Global State: mutable-global-state.md
     - Comprehensions & Generator Expressions: comprehensions-&-generator-expressions.md
