@@ -1,0 +1,16 @@
+name: LGTM Auto Approve
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  approve:
+    if: contains(github.event.comment.body, '/lgtm')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Approve Pull Request
+        uses: peter-evans/approve-pull-request@v2
+        with:
+          pull-request-number: ${{ github.event.issue.number }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}  # 기본적으로 제공되는 GITHUB_TOKEN 사용
