@@ -84,18 +84,9 @@ docs_dir: google python style guide
 nav:
   - 배경: background.md
   - Python Language Rules:
-<<<<<<< HEAD
       - Lint: lint.md
       - Imports: imports.md
       - Packages: packages.md
       - Exceptions: exceptions.md
       - Mutable Global State: mutable-global-state.md
       - Comprehensions & Generator Expressions: comprehensions-&-generator-expressions.md
-=======
-    - Lint: lint.md
-    - Imports: imports.md
-    - Packages: packages.md
-    - Mutable Global State: mutable-global-state.md
-    - Comprehensions & Generator Expressions: comprehensions-&-generator-expressions.md
-    - Default Iterators and Operators: default-iterators-and-operators.md
->>>>>>> 5975c0135e7af7e37ae83171de86a1a5770d9d9d
