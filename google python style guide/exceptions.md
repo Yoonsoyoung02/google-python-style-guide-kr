@@ -1,20 +1,20 @@
-# 2.4 예외(Exceptions)
+# 2.4 예외
 
 예외는 허용되지만, 신중하게 사용해야 합니다.
 
-## 2.4.1 정의(Definition)
+## 2.4.1 정의
 
 예외는 오류나 기타 예외적인 조건을 처리하기 위해 정상적인 제어 흐름에서 벗어나는 수단입니다.
 
-## 2.4.2 장점(Pros)
+## 2.4.2 장점
 
 일반적인 동작을 하는 코드의 흐름이 오류 처리 코드로 인해 복잡해지지 않습니다. 또한 특정 조건이 발생하면 여러 함수 호출 프레임을 한 번에 건너뛸 수 있도록 합니다. 예를 들어, 오류 코드를 단계별로 전달할 필요 없이, N개의 중첩된 함수 호출을 한 번에 종료할 수 있습니다.
 
-## 2.4.3 단점(Cons)
+## 2.4.3 단점
 
 제어 흐름이 혼란스러워질 수 있습니다. 라이브러리 호출 시 오류 처리를 놓치기 쉽습니다.
 
-## 2.4.4 결정(Decision)
+## 2.4.4 결정
 
 예외는 특정 조건을 따라야 합니다. :
 
@@ -23,46 +23,46 @@
 - `assert` 문을 조건문이나 사전 조건 검증 용도로 사용하지 않습니다. `assert`문은 애플리케이션의 핵심 로직에서 중요한 역할을 해서는 안 됩니다. 이를 판단하는 방법으로, `assert` 문을 제거해도 코드가 정상적으로 동작해야 합니다. `assert` 조건문은 [not guaranteed](https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement) 즉, 항상 실행된다는 보장이 없습니다. 다만, [pytest](https://docs.pytest.org/en/stable/) 기반 테스트에서는 `assert` 문을 사용하여 기대값을 검증하는 것이 일반적이며, 이를 사용하는 것이 권장됩니다. 예를 들어 :
 
 ```python
-Yes:
+Yes(권장):
   def connect_to_next_port(self, minimum: int) -> int:
-    """Connects to the next available port.
+    """다음 사용 가능한 포트에 연결합니다.
 
-    Args:
-      minimum: A port value greater or equal to 1024.
+    매개변수(Args):
+      minimum: 1024 이상이어야 하는 포트 값.
 
-    Returns:
-      The new minimum port.
+    반환값(Returns):
+      새로운 최소 포트 값.
 
-    Raises:
-      ConnectionError: If no available port is found.
+    예외(Raises):
+      ConnectionError: 사용 가능한 포트를 찾을 수 없을 경우 발생.
     """
     if minimum < 1024:
       # `ValueError`를 발생시키는 경우가 문서 문자열의 "Raises:" 섹션에
       # 명시되지 않은 이유는, API 오용에 대한 특정한 동작을
       # 보장하는 것이 적절하지 않기 때문입니다.
-      raise ValueError(f'Min. port must be at least 1024, not {minimum}.')
+      raise ValueError(f'최소 포트 번호는 1024 이상이어야 합니다. 현재 값: {minimum}.')
     port = self._find_next_open_port(minimum)
     if port is None:
       raise ConnectionError(
-          f'Could not connect to service on port {minimum} or higher.')
+          f'{minimum}번 포트 또는 그 이상에서 서비스에 연결할 수 없습니다.')
     # `assert`의 결과에 코드가 의존하지 않습니다.
     assert port >= minimum, (
-        f'Unexpected port {port} when minimum was {minimum}.')
+        f'최소 포트가 {minimum}이어야 하는데, 예상치 못한 포트 {port}가 반환되었습니다.')
     return port
 ```
 
 ```python
-No:
+No(주의):
   def connect_to_next_port(self, minimum: int) -> int:
-    """Connects to the next available port.
+    """다음 사용 가능한 포트에 연결합니다
 
-    Args:
-      minimum: A port value greater or equal to 1024.
+    매개변수(Args):
+      minimum: 1024 이상이어야 하는 포트 값.
 
-    Returns:
-      The new minimum port.
+    반환값(Returns):
+      새로운 최소 포트 값.
     """
-    assert minimum >= 1024, 'Minimum port must be at least 1024.'
+    assert minimum >= 1024, '최소 포트 번호는 적어도 1024 이상이어야 합니다.'
     # 아래 코드가 이전 `assert`에 의존합니다.
     port = self._find_next_open_port(minimum)
     assert port is not None
