@@ -16,14 +16,14 @@
 
 ## 2.4.4 결정
 
-예외는 특정 조건을 따라야 합니다. :
+예외는 특정 조건을 따라야 합니다:
 
 - 특정 조건을 충족하는 경우 기본 예외 클래스를 사용합니다. 예를 들어, 함수 인수를 검증할 때 사전 조건이 만족되지 않는 등 프로그래밍 실수를 나타낼 경우 `ValueError`를 발생시킵니다.
 
 - `assert` 문을 조건문이나 사전 조건 검증 용도로 사용하지 않습니다. `assert`문은 애플리케이션의 핵심 로직에서 중요한 역할을 해서는 안 됩니다. 이를 판단하는 방법으로, `assert` 문을 제거해도 코드가 정상적으로 동작해야 합니다. `assert` 조건문은 [not guaranteed](https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement) 즉, 항상 실행된다는 보장이 없습니다. 다만, [pytest](https://docs.pytest.org/en/stable/) 기반 테스트에서는 `assert` 문을 사용하여 기대값을 검증하는 것이 일반적이며, 이를 사용하는 것이 권장됩니다. 예를 들어 :
 
 ```python
-Yes(권장):
+# Yes(권장):
   def connect_to_next_port(self, minimum: int) -> int:
     """다음 사용 가능한 포트에 연결합니다.
 
@@ -52,7 +52,7 @@ Yes(권장):
 ```
 
 ```python
-No(주의):
+# No(주의):
   def connect_to_next_port(self, minimum: int) -> int:
     """다음 사용 가능한 포트에 연결합니다
 
