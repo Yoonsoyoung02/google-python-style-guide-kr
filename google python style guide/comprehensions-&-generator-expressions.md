@@ -47,7 +47,7 @@
   unique_names = {user.name for user in users if user is not None}
 ```
 ```python
-No:
+# No(주의):
   result = [(x, y) for x in range(10) for y in range(5) if x * y > 10]
 
   return (
