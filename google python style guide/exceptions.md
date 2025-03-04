@@ -52,7 +52,7 @@
 ```
 
 ```python
-No(주의):
+# No(주의):
   def connect_to_next_port(self, minimum: int) -> int:
     """다음 사용 가능한 포트에 연결합니다
 
