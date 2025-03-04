@@ -10,7 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Approve Pull Request
-        uses: GideokKim/google-python-style-guide-kr/.github/actions/approve-pull-request@main
-        with:
-          number: ${{ github.event.issue.number }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}  # 기본적으로 제공되는 GITHUB_TOKEN 사용
+        run: |
+          PR_NUMBER=${{ github.event.issue.number }}
+          echo "Approving PR #$PR_NUMBER"
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${{ github.repository }}/pulls/$PR_NUMBER/reviews \
+            -d '{"event":"APPROVE"}'
