@@ -87,6 +87,7 @@ repository/
   <tbody>
     <tr>
       <td align="center"><a href="https://github.com/GideokKim"><img src="https://avatars.githubusercontent.com/u/79832255?v=4" width="100px;" alt="GideokKim"/><br /><sub><b>GideokKim</b></sub></a><br /><a href="#maintenance-GideokKim" title="Maintenance">🚧</a></td>
+      <td align="center"><a href="https://gemini.google.com/"><img src="https://github.com/user-attachments/assets/27b6ffe2-3713-4499-8aef-93a6f0b6e777" width="100px;" alt="Gemini"/><br /><sub><b>Gemini</b></sub></a><br /><a href="#code-assistant" title="Code Assistant">🤖</a></td>
       <td align="center"><a href="https://github.com/Yoonsoyoung02"><img src="https://avatars.githubusercontent.com/u/192282690?v=4" width="100px;" alt="Yoonsoyoung02"/><br /><sub><b>Yoonsoyoung02</b></sub></a><br /><a href="#issue-maker" title="Issue Maker">✨</a></td>
       <td align="center"><a href="https://github.com/YiHeeJu"><img src="https://avatars.githubusercontent.com/u/177398433?v=4" width="100px;" alt="Yi HeeJu"/><br /><sub><b>Yi HeeJu</b></sub></a><br /><a href="#speed-runner" title="Speed Runner">🚀</a></td>
       <td align="center"><a href="https://github.com/zer0ken"><img src="https://avatars.githubusercontent.com/u/31297454?v=4" width="100px;" alt="zer0ken"/><br /><sub><b>zer0ken</b></sub></a><br /><a href="#contributor" title="Contributor">🤝</a></td>
