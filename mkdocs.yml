@@ -62,6 +62,7 @@ markdown_extensions:
   - tables                # 테이블
   - toc:                  # 목차
       permalink: true
+  - github-callouts
 
 # Plugins
 plugins:
@@ -88,5 +89,8 @@ nav:
     - Imports: imports.md
     - Packages: packages.md
     - Mutable Global State: mutable-global-state.md
+    - Inner Classes and Functions: Inner_Classes_and_Functions.md
+    - Comprehensions & Generator Expressions: comprehensions-&-generator-expressions.md
+    - Default Iterators and Operators: default-iterators-and-operators.md
   - Appendix:
     - 사전: appendix/dictionary.md
