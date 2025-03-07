@@ -92,3 +92,5 @@ nav:
     - Inner Classes and Functions: Inner_Classes_and_Functions.md
     - Comprehensions & Generator Expressions: comprehensions-&-generator-expressions.md
     - Default Iterators and Operators: default-iterators-and-operators.md
+  - Appendix:
+    - 사전: appendix/dictionary.md
