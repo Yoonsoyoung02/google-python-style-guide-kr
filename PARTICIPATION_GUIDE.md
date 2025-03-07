@@ -65,10 +65,11 @@
 
 ### ✅ 번역 원칙
 
-- 용어는 **일관되게 사용**하고, 기존에 번역된 내용과 [사전](https://docs.google.com/spreadsheets/d/1dH5y8l-a4FSmnyiGKIxv6ARd2Wn09Nq0cjjZeVr_A0A/edit?usp=sharing)을 참고하여 동일한 표현을 유지합니다.
+- 용어는 **일관되게 사용**하고, 기존에 번역된 내용과 [사전](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRD6I_ELlSzmkNvfn-JVvTjIVbX91RA4g82AjYUogsvuoLLspPqO4PEKZrSwDUuTDgFwxkk1gSA1eW/pubhtml?gid=1120400211&single=true)을 참고하여 동일한 표현을 유지합니다.
 - 다른 기여자의 파일도 참고를 위해 별도 확인 바랍니다.
 - 코드 부분은 원문을 유지하며, 백틱(`)을 사용해 표현합니다.
-  👉 [자세한 번역 스타일 가이드 확인](./gemini/styleguide.md)
+
+👉 [자세한 번역 스타일 가이드 확인](./gemini/styleguide.md)
 
 ### ✅ [Google python style guide 번역 용어 수집](https://forms.gle/4ynzEmGWZcnFW9nUA)
 
