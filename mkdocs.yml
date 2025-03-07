@@ -87,8 +87,10 @@ nav:
   - Python Language Rules:
     - Lint: lint.md
     - Imports: imports.md
-<<<<<<< HEAD
+    - Packages: packages.md
     - Exceptions: exceptions.md
+    - Mutable Global State: mutable-global-state.md
+    - Comprehensions & Generator Expressions: comprehensions-&-generator-expressions.md
     - Packages: packages.md
     - Mutable Global State: mutable-global-state.md
     - Inner Classes and Functions: Inner_Classes_and_Functions.md
@@ -96,9 +98,4 @@ nav:
     - Default Iterators and Operators: default-iterators-and-operators.md
   - Appendix:
     - 사전: appendix/dictionary.md
-=======
-    - Packages: packages.md
-    - Exceptions: exceptions.md
-    - Mutable Global State: mutable-global-state.md
-    - Comprehensions & Generator Expressions: comprehensions-&-generator-expressions.md
->>>>>>> 23c551b (로컬 변경 사항 저장)
+
