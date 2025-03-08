@@ -91,7 +91,7 @@ repository/
       <td align="center"><a href="https://github.com/YiHeeJu"><img src="https://avatars.githubusercontent.com/u/177398433?v=4" width="100px;" alt="Yi HeeJu"/><br /><sub><b>Yi HeeJu</b></sub></a><br /><a href="#speed-runner" title="Speed Runner">🚀</a></td>
       <td align="center"><a href="https://github.com/zer0ken"><img src="https://avatars.githubusercontent.com/u/31297454?v=4" width="100px;" alt="zer0ken"/><br /><sub><b>zer0ken</b></sub></a><br /><a href="#sprout-mentor" title="Sprout Mentor">🌱</a></td>
       <td align="center"><a href="https://github.com/Kristyn-Yoon"><img src="https://avatars.githubusercontent.com/u/189988993?v=4" width="100px;" alt="Kristyn Yoon"/><br /><sub><b>Kristyn Yoon</b></sub></a><br /><a href="#contributor" title="Contributor">🤝</a></td>
-      <td align="center"><a href="https://github.com/Bosongsae"><img src="https://avatars.githubusercontent.com/u/192054862?v=4" width="100px;" alt="Kristyn Yoon"/><br /><sub><b>Bosongsae</b></sub></a><br /><a href="#contributor" title="Contributor">🤝</a></td>
+      <td align="center"><a href="https://github.com/Bosongsae"><img src="https://avatars.githubusercontent.com/u/192054862?v=4" width="100px;" alt="Bosongsae"/><br /><sub><b>Bosongsae</b></sub></a><br /><a href="#contributor" title="Contributor">🤝</a></td>
     </tr>
   </tbody>
 </table>
