@@ -11,8 +11,8 @@
 **✅Link**
 
 - **사전 등록(구글폼)**: [Google python style guide 번역 용어 수집](https://forms.gle/4ynzEmGWZcnFW9nUA)
-- **사전 조회 (웹 문서)**: [Google Python Style Guide 사전](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRD6I_ELlSzmkNvfn-JVvTjIVbX91RA4g82AjYUogsvuoLLspPqO4PEKZrSwDUuTDgFwxkk1gSA1eW/pubhtml?gid=1120400211&single=true)
 - **사전 조회 (Google 스프레드시트)**: [Google Python Style Guide 사전](https://docs.google.com/spreadsheets/d/1OzuoyIpy9bl3KRxMETcVuEOyO0_nL4ip4kMIurU-UVM/edit?usp=sharing)
+- **사전 조회 (웹 문서)**: [Google Python Style Guide 사전](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRD6I_ELlSzmkNvfn-JVvTjIVbX91RA4g82AjYUogsvuoLLspPqO4PEKZrSwDUuTDgFwxkk1gSA1eW/pubhtml?gid=1120400211&single=true)
 - [기여 방법(CONTRIBUTING.md)](https://github.com/GideokKim/google-python-style-guide-kr/blob/main/CONTRIBUTING.md)
 
 </aside>
