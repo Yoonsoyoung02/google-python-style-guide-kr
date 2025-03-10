@@ -62,6 +62,21 @@ repository/
 - 🌟 **N번째 스타**: ?
 - 🌙 **조용한 기여자**: ?
 
+## 📌 사전 및 용어 관리
+
+### 📖 사전
+
+번역의 일관성을 유지하기 위해 사전을 활용합니다.
+
+- 새로운 용어나 수정이 필요한 경우, 아래 링크에서 용어를 기입해 주세요.
+  - 사전 등록: [Google python style guide 번역 용어 수집](https://forms.gle/EqLQwYh74NBBj3oF9)
+- 기존 번역 용어를 확인하려면 아래 링크를 참고하세요.
+  - 사전 조회: [사전에서 번역 용어 확인](https://docs.google.com/spreadsheets/d/e/2PACX-1vRRD6I_ELlSzmkNvfn-JVvTjIVbX91RA4g82AjYUogsvuoLLspPqO4PEKZrSwDUuTDgFwxkk1gSA1eW/pubhtml?gid=1120400211&single=true)
+
+### [참고] ✍️ 참가 가이드
+
+Google Python Style Guide 번역 가이드 및 용어 사전 안내(PARTICIPATION_GUIDE.md)
+
 ## 📄 라이선스
 
 이 프로젝트는 [Apache License 2.0](LICENSE)을 따릅니다. 원문 스타일 가이드의 저작권은 Google에 있습니다.
@@ -91,6 +106,8 @@ repository/
       <td align="center"><a href="https://github.com/YiHeeJu"><img src="https://avatars.githubusercontent.com/u/177398433?v=4" width="100px;" alt="Yi HeeJu"/><br /><sub><b>Yi HeeJu</b></sub></a><br /><a href="#speed-runner" title="Speed Runner">🚀</a></td>
       <td align="center"><a href="https://github.com/zer0ken"><img src="https://avatars.githubusercontent.com/u/31297454?v=4" width="100px;" alt="zer0ken"/><br /><sub><b>zer0ken</b></sub></a><br /><a href="#sprout-mentor" title="Sprout Mentor">🌱</a></td>
       <td align="center"><a href="https://github.com/Kristyn-Yoon"><img src="https://avatars.githubusercontent.com/u/189988993?v=4" width="100px;" alt="Kristyn Yoon"/><br /><sub><b>Kristyn Yoon</b></sub></a><br /><a href="#contributor" title="Contributor">🤝</a></td>
+      <td align="center"><a href="https://github.com/Bosongsae"><img src="https://avatars.githubusercontent.com/u/192054862?v=4" width="100px;" alt="Bosongsae"/><br /><sub><b>Bosongsae</b></sub></a><br /><a href="#contributor" title="Contributor">🤝</a></td>
+      <td align="center"><a href="https://github.com/codingorijazz"><img src="https://avatars.githubusercontent.com/u/178161492?v=4" width="100px;" alt="codingorijazz"/><br /><sub><b>codingorijazz</b></sub></a><br /><a href="#contributor" title="Contributor">🤝</a></td>
     </tr>
   </tbody>
 </table>
